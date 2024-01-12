@@ -3,6 +3,11 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -10,16 +15,11 @@ body{
     border: 2px solid black;
     width:21rem;
     height: auto;
-     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     padding: 1.5rem;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 20px 20px 20px black;
+    box-shadow: 5px 5px 0px black;
+    margin-bottom: 3rem;
     
 }
 
