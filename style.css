@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+
+:root{
+    /* Primary Colors */
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink:hsl(333, 80%, 67%);
+
+    /* Neutral Colors */
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+
+    /* fonts */
+    --league-spartan: font-family: 'League Spartan', sans-serif;
+
+
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--league-spartan);
+    background-color: var(--white);
+}
+
+.top-half{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-left{
+    width: 40%;
+    padding: 2rem;
+}
+
+.container-left-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+
+}
+.container-left-sub-heading{
+    margin-top: 1.4rem;
+    font-weight: 500;
+    color: var(--very-dark-magenta);
+}
+
+
+.container-right{
+    width: 40%;
+    text-align: right;
+    padding: 2rem;
+    font-weight: 900;
+    color: var(--very-dark-magenta);
+}
+
+.top-review-card{
+    padding: 0.5rem;
+    background-color: var(--light-grayish-magenta);
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.img-star{
+    padding-right: 3rem;
+}
+
+.first{
+    margin-right: 5rem;
+    margin-left: 1rem;
+    padding-right: 3rem;
+}
+.second{
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-right: 2rem;
+
+}
+.third{
+    margin-right: 1rem;
+    margin-left:5rem ;
+    padding-right: 2rem;
+
+}
+
+.customer-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-card{
+    width: 20%;
+    padding: 2rem;
+    background-color: var(--very-dark-magenta);
+    color:var(--white);
+    margin-right: 2rem;
+    border-radius: 4px;
+}
+
+.customer-card-subheading{
+    color:var(--soft-pink);
+    margin-bottom: 2rem;
+}
+
+.first-card{
+    margin-top: 0rem;
+}
+
+.second-card{
+    margin-top: 3rem;
+}
+
+.third-card{
+    margin-top: 6rem;
+    margin-right: 0rem;
+}
+
+.customer-header-section{
+    display: flex;
+    flex-direction: row;
+}
+.customer-header-left{
+    margin-right: 1rem;
+}
+
+.customer-img img{
+    border-radius: 50%;
+    height: 40px;
+}
+
+.customer-header-right{
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
