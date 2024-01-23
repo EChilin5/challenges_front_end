@@ -148,3 +148,35 @@ body{
     align-items: center;
     /* flex-direction: column; */
 }
+
+
+@media screen and (max-width:600px){
+    .body{
+        flex-direction: column;
+    }
+    .top-half{
+        flex-direction: column;
+    }
+
+    .container-left{
+        width: 100%;
+    }
+    .container-right{
+        width: 100%;
+    }
+
+    .first, .second, .third-card{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding: 0rem;
+
+    }
+
+    .customer-reviews{
+        flex-direction: column;
+    }
+
+    .customer-card{
+        width: 100%;
+    }
+}
